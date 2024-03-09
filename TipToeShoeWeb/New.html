@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="Resources/TipToe Soles_Logo_colour.png">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TipToe Soles New</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Shop.css" />
+    <script src="Shop.js"></script>
+    <script src="serch.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="left-nav">
+            <a href="Login.html" id="login-signup">
+                <img src="Resources/Login.png" alt="Login" class="icon" />Login/Sign
+                Up
+            </a>
+        </div>
+        <div id="logo">
+            <a href="Main.html" id="MainPage">
+                <img src="Resources/TipToe Soles_Logo_colour.png" alt="TipToe Soles" /></a>
+            <p>TipToe Soles</p>
+        </div>
+        <nav class="right-nav">
+            <ul>
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Search..." class="search-input" />
+                    <button id="search-btn" aria-label="Search"><img src="Resources/search.png" alt="Search"
+                            class="icon" /></button>
+                    <button id="close-btn" aria-label="Close" class="close-btn" style="display: none;"><img
+                            src="Resources/Close.png" alt="Close" class="icon" /></button>
+                    <button id="search-btn-check" aria-label="Search" class="search-btn-check"
+                        style="display: none;"><img src="Resources/search.png" alt="search" class="icon" /></button>
+                </div>
+                <li>
+                    <a href="WIshlist.html"><img src="Resources/wishlist.png" alt="Wishlist" class="icon" />Wishlist</a>
+                </li>
+                <li>
+                    <a href="Cart.html"><img src="Resources/cart.png" alt="Cart" class="icon" />My
+                        Cart</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="header-menu">
+        <nav id="main-menu">
+            <ul>
+                <li><a href="New.html?gender=all">New In</a></li>
+                <li><a href="New.html?gender=Women">Womens</a></li>
+                <li><a href="New.html?gender=Man">Mans</a></li>
+                <li><a href="New.html?gender=all">Sale</a></li>
+            </ul>
+        </nav>
+    </div>
+    <hr />
+    <main>
+
+        <body>
+            <section id="best-sellers">
+                <div class="filter-container">
+                    <select id="brandFilter">
+                        <option value="all">All Brands</option>
+                        <option value="Clancy">Clancy</option>
+                        <option value="Gary">Gary</option>
+                        <option value="Havenly">Havenly</option>
+                        <option value="Sally">Sally</option>
+                        <option value="Work and Walk">Work and Walk</option>
+                    </select>
+
+                    <select id="colourFilter">
+                        <option value="all">All Colour</option>
+                        <option value="Black">Black</option>
+                        <option value="Blue">Blue</option>
+                        <option value="Brown">Brown</option>
+                    </select>
+
+                    <select id="Price">
+                        <option value="all">All Price</option>
+                        <option value="Hundred">~ $100</option>
+                        <option value="Eight">$99 ~ $80</option>
+                        <option value="six">$79 ~ $60</option>
+                        <option value="four">$59 ~ $40</option>
+                        <option value="less">$39 ~</option>
+                    </select>
+
+                    <select id="Gender">
+                        <option value="all">All</option>
+                        <option value="Man">Man</option>
+                        <option value="Women">Women</option>
+                    </select>
+                </div>
+
+                <div class="product-container product-list"></div>
+
+                <section id="best-sellers">
+
+                    <div class="product-list"></div>
+        </body>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Customer Service</h3>
+                    <ul>
+                        <li><a href="Footer/Delivery.html">Shipping & Delivery</a></li>
+                        <li><a href="Footer/Click.html">Click & Collect</a></li>
+                        <li><a href="Footer/Return.html">Our Return Policy</a></li>
+                        <li><a href="Footer/FAQ.html">FAQs</a></li>
+                        <li><a href="Footer/Contact.html">Contact Us</a></li>
+                        <li><a href="Footer/Request.html">Request a Return</a></li>
+                        <li><a href="Footer/Terms.html">Terms & Conditions</a></li>
+                        <li><a href="Footer/Policy.html">Privacy Policy</a></li>
+                        <li><a href="Footer/Gift.html">Gift Card</a></li>
+                    </ul>
+
+                </div>
+                <div class="footer-section">
+                    <h3>My Account</h3>
+                    <ul>
+                        <li><a href="Register.html">Sign Up</a></li>
+                        <li><a href="Login.html">Login</a></li>
+                        <li><a href="Order.html">My Orders</a></li>
+                        <li><a href="wishlist.html">My Wishlist</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Information</h3>
+                    <ul>
+                        <li><a href="Footer/Size.html">Size Guide</a></li>
+                        <li><a href="https://www.instagram.com/no_ma614/">Our Instagram</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Top Brands</h3>
+                    <ul>
+                        <li><a href="New.html?gender=all">All Brands</a></li>
+                        <li><a href="New.html?brand=Clancy">Clancy</a></li>
+                        <li><a href="New.html?brand=Gary">Gary</a></li>
+                        <li><a href="New.html?brand=Havenly">Havenly Black</a></li>
+                        <li><a href="New.html?brand=Sally">Sally</a></li>
+                        <li><a href="New.html?brand=Work and Walk">Work and Walk</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section social-media">
+                    <h3>Social Media</h3>
+                    <ul>
+                        <li><a href="https://www.instagram.com/no_ma614/" target="_blank">Instagram</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="footer-section payment-options">
+
+                </div>
+            </div>
+
+            <hr>
+            <div class="footer-bottom">
+                <p>&copy; TipToe Soles</p>
+                <img src="Resources/Payment.png" alt="Payment Options" class="payment-options-img">
+            </div>
+        </footer>
+</body>
+
+</html>

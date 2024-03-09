@@ -1,0 +1,313 @@
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+.info-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: #fff;
+  padding: 60px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.useful-links,
+.delivery-information {
+  margin: 0 20px;
+}
+
+.useful-links h3 {
+  font-size: 1.25rem;
+  background: #eee;
+  color: #333;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+.useful-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.useful-links ul li,
+.delivery-information p {
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.useful-links ul li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.useful-links ul li a:hover {
+  background-color: #f8f8f8;
+  color: #000;
+}
+
+.delivery-information h2 {
+  background: rgba(26, 30, 74, 1);
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  height: 100px;
+  width: auto;
+}
+
+.delivery-information h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.delivery-information p {
+  margin-bottom: 10px;
+  border-color: rgba(255, 255, 255, 0.5);
+  text-align: left;
+}
+
+.delivery-information h3 {
+  text-align: left;
+  margin-bottom: 60px;
+}
+.delivery-information h4 {
+  text-align: left;
+}
+
+.delivery-information a {
+  text-align: left;
+  color: gray;
+}
+
+.delivery-information input {
+  text-align: left;
+}
+
+.contact-form {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.support-hours {
+  background: #ffeded;
+  border: 1px solid red;
+  color: red;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 21px;
+}
+
+.contact-form form {
+  display: grid;
+  grid-gap: 10px;
+  margin-bottom: 20px;
+}
+
+.delivery-information textarea,
+.contact-form select,
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 60px;
+  font-size: 30px;
+}
+
+.contact-form textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.contact-form button {
+  background: #003366;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.contact-form button:hover {
+  background: #001a33;
+}
+
+.contact-form textarea {
+  height: 200px;
+  resize: vertical;
+}
+
+.delivery-information button,
+.contact-form button {
+  background: #003366;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.contact-form button:hover {
+  background: #001a33;
+}
+
+.gift-card-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.gift-card-container h1 {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 50px;
+}
+
+#gift-card-form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#gift-card-form input,
+#gift-card-form select,
+#gift-card-form textarea {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  font-size: 25px;
+}
+
+#gift-card-form button {
+  width: 100%;
+  padding: 15px;
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#gift-card-form button:hover {
+  background-color: #cc0000;
+}
+
+.gift-card-container img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .info-section,
+  .contact-form,
+  .gift-card-container,
+  .delivery-information {
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: none;
+  }
+
+  .info-section .useful-links,
+  .info-section .delivery-information,
+  .contact-form form,
+  .gift-card-container {
+    margin: 0;
+    width: 100%;
+  }
+
+  .useful-links h3,
+  .delivery-information h2,
+  .contact-form button,
+  .gift-card-container h1,
+  .support-hours {
+    font-size: 18px; /* Adjust font sizes for readability */
+  }
+
+  .useful-links ul li a,
+  .delivery-information p,
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea,
+  #gift-card-form input,
+  #gift-card-form select,
+  #gift-card-form textarea,
+  #gift-card-form button {
+    font-size: 16px; /* Make text fields and buttons easier to interact with */
+    padding: 15px; /* Increase padding for larger tap targets */
+  }
+
+  .contact-form textarea,
+  .delivery-information textarea,
+  #gift-card-form textarea {
+    height: 120px; /* Adjust the height of text areas */
+  }
+
+  .gift-card-container img {
+    width: 100%; /* Make images responsive */
+    max-width: 200px; /* Limit maximum width */
+    margin: 0 auto 20px; /* Center images */
+  }
+
+  .contact-form,
+  .delivery-information,
+  .gift-card-container {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .delivery-information button,
+  .contact-form button {
+    padding: 12px 24px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .info-section,
+  .contact-form,
+  .gift-card-container,
+  .delivery-information,
+  .support-hours {
+    padding: 15px;
+  }
+
+  .useful-links h3,
+  .delivery-information h2,
+  .contact-form button,
+  .gift-card-container h1,
+  .support-hours {
+    font-size: 16px;
+  }
+
+  .useful-links ul li a,
+  .delivery-information p,
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea,
+  #gift-card-form input,
+  #gift-card-form select,
+  #gift-card-form textarea,
+  #gift-card-form button {
+    font-size: 14px;
+  }
+}
